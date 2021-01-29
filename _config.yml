@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: ML Retrospectives
-email:
+name: I Can't Believe it's not Better
+email: cant.believe.it.is.not.better@gmail.com
 description: > # this means to ignore newlines until "url:"
-  A Venue for Self-Reflection in ML Research
+  Bridging the gap between theory and empiricism in probabilistic machine learning
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -17,7 +17,7 @@ last_updated: # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: ml-retrospectives
+github_username: i-cant-believe-its-not-better
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
@@ -26,20 +26,20 @@ medium_username: # your Medium username
 quora_username: # your Quora username
 
 contact_note: >
-  To reach us please open a github issue!
+  To reach us, please send us an email!
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Published Retrospectives
-blog_description: These are retrospectives which have been reviewed and accepted.
+blog_name: Bridging the gap
+blog_description:
 
 # Pagination
 paginate: 4
-permalink: /published_retrospectives/:year/:title/
-paginate_path: /published_retrospectives/page:num/
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
 
 text:
   pagination:
